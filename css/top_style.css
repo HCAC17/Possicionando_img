@@ -1,0 +1,38 @@
+.imagen1 {
+  float: left;
+  border: 2px red solid;
+}
+
+.imagen2 {
+  border: 2px red solid;
+  width: 20.3%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imagen3 {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  border: 2px red solid;
+}
+
+@media screen and (max-width: 425px) {
+  .imagen1 {
+    position: relative;
+    border: 0px;
+    float: none;
+  }
+
+  .imagen2 {
+    position: relative;
+    border: 2px red solid;
+    float: none;
+  }
+
+  .imagen3 {
+    float: none;
+    border: 0px;
+    position: relative;
+  }
+}
