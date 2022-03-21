@@ -1,38 +1,76 @@
 .imagen1 {
+  width: 276px;
   float: left;
-  border: 2px red solid;
+  
 }
 
 .imagen2 {
-  border: 2px red solid;
-  width: 20.3%;
+  
+  width: 275px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .imagen3 {
   position: absolute;
+  width: 259px;
   right: 0px;
   top: 0px;
-  border: 2px red solid;
+ 
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 842px) {
   .imagen1 {
     position: relative;
+    width: 276px;
     border: 0px;
     float: none;
   }
 
   .imagen2 {
-    position: relative;
-    border: 2px red solid;
-    float: none;
+    width: 275px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+
+    
   }
 
   .imagen3 {
-    float: none;
-    border: 0px;
+    
+    width: 259px;
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
+    top: 50%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .imagen1 {
+    
+    width: 276px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 10%;
+  }
+
+  .imagen2 {
+    
+    width: 275px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 50%;
+  }
+
+  .imagen3 {
+    
+    width: 259px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 75%;
   }
 }
